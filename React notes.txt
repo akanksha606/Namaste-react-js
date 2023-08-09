@@ -1,0 +1,22 @@
+React notes:
+React is a JS library that means you can inject react in your code.
+
+In javascript:
+to create H1 tag: documnet.createElement
+
+In js we can add element to root by appending it.
+Example: const heading = document.createElement("h1");
+    heading.innerHTML = "Namaste Everyone!"
+    const root= document.getElementById("root");
+    root.appendChild(heading);
+
+How does browser get to know how to run?
+Browser run though API, it knows what is window and document, and has JS engine also.
+
+What is a CDN?
+Content delivery networks: CDN reduces API latency, as reduces the distance b/w the server and the user to accelerate the delivery of library assets so webpages load faster.
+(has js files and script)
+
+What is crossorigin?
+
+What is the shortest program of JS? : empty file.
