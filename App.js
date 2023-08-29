@@ -1,14 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
 //React element
-const jsxheading = (<h1>Namaste react using JSx</h1>);
-console.log(jsxheading);
+const Title = () => (<h1>Namaste react title comp</h1>);
 const root= ReactDOM.createRoot(document.getElementById("root"));
         
 
 //React functional component
 const HeadingComponent = ()=> {
-        return <h1>Namaste functional component</h1>
+        return (
+                <div>
+                {Title()}
+                <Title/>
+                <Title></Title>
+        <h1>Namaste functional component</h1>
+        </div>)
 }
 // can write like this also
 const HeadingComponent1 = ()=> <h1>Namaste functional component</h1>
