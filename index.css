@@ -18,11 +18,17 @@
     margin: 10px;
     list-style-type: none;
 }
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .res-card{
     background-color: #f0f0f0;
     width: 200px;
+    margin: 5px;
 }
 .res-card:hover{
+    cursor: pointer;
     border: 1px solid black;
 }
 .search-bar{
